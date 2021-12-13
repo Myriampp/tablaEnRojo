@@ -1,0 +1,88 @@
+
+#brand {
+  font-size: 5em;
+  cursor: pointer;
+  background: rgb(242,241,237);
+background: linear-gradient(0deg, rgba(242,241,237,1) 0%, rgba(242,208,119,0.9512718286407128) 40%, rgba(116,91,25,0.8557662106631847) 71%, rgba(20,15,1,0.7125077836968925) 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   text-align: center;
+   margin: 0;
+   color: #fff;
+
+   font-family: 'MedievalSharp', cursive;
+}
+  
+  
+  
+  table {
+    border: 1px solid #0d1314e7;
+    border-collapse: collapse;
+  }
+  th,
+  td {
+    border: 1px solid #262829;
+    padding: 5px 10px;
+     
+}
+  th {
+    background-color: rgba(127, 143, 36, 0.349);
+    text-align: center;
+  }
+  tr {
+    background-color: rgba(220, 228, 231, 0.527);
+    text-align: left;
+  }
+  tr:nth-child(even) {
+    background-color: #5a59152c;
+  }
+  table:last-child tr td {
+    text-align: center;
+  }
+  
+
+  
+  header {  
+    background: rgb(3,3,7);
+    background: linear-gradient(0deg, rgba(3,3,7,1) 0%, rgba(250,2,9,0.6872268848204881) 100%);
+    border: #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    box-shadow: 0px 0px 16px 10px rgba(8, 83, 80, 0.36);
+    -webkit-box-shadow: 0px 0px 16px 10px rgba(8, 83, 80, 0.36);
+    -moz-box-shadow: 0px 0px 16px 10px rgba(8, 83, 80, 0.36);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  body {
+    margin-top: 100px;
+    background: rgb(3,3,7);
+background: linear-gradient(0deg, rgba(3,3,7,1) 0%, rgba(194, 151, 153, 0.687) 100%);
+    margin: 0;
+  }
+  section h2 {
+    font-size: 2em;
+  }
+  
+  header ul {
+    display: flex;
+  }
+  main {
+    border: 1px solid #e5e5e5;
+  }
+  main,
+  table {
+     text-align: center;
+  }
+  
+  footer {
+    margin: 0%;
+    padding: 10px;
+    background: rgb(3,3,7);
+    background: linear-gradient(0deg, rgba(3,3,7,1) 0%, rgba(250,2,9,0.6872268848204881) 100%);
+    text-align: center;
+    color: #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+  }
